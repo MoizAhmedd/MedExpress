@@ -18,7 +18,7 @@ export class AuthService {
   }
 
   public addResponses(intro,urgency,treatment,medication){
-    let endpoint = `http://medexpress-265520.appspot.com/add-response/${this.patientId}/${this.visitId}`
+    let endpoint = `https://medexpress-265520.appspot.com/add-response/${this.patientId}/${this.visitId}`
     let prompt_1 = {
       reason: intro,
     }
