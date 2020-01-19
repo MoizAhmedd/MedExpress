@@ -69,7 +69,7 @@ export class SignupComponent implements OnInit {
             emergency_contact_number:this.contactNumber,
         }
 
-        let endpoint = "http://medexpress-265520.appspot.com/register"
+        let endpoint = "https://medexpress-265520.appspot.com/register"
         this.http.post(endpoint,JSON.parse(JSON.stringify(registration_body))).subscribe(
             data =>{
                 this.router.navigate(['/login'])
