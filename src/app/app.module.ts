@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthGuard } from './shared';
 import { CheckinSequenceComponent } from './checkin-sequence/checkin-sequence.component';
+import { ActionsComponent } from './actions/actions.component';
+import { QueueComponent } from './queue/queue.component';
 
 @NgModule({
     imports: [
@@ -19,7 +21,7 @@ import { CheckinSequenceComponent } from './checkin-sequence/checkin-sequence.co
         LanguageTranslationModule,
         AppRoutingModule,
     ],
-    declarations: [AppComponent, CheckinSequenceComponent],
+    declarations: [AppComponent, CheckinSequenceComponent, ActionsComponent, QueueComponent],
     providers: [AuthGuard],
     bootstrap: [AppComponent]
 })

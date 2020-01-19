@@ -1,4 +1,8 @@
-$topnav-background-color: #8a6faa;
+.checkIn:hover{
+    background-color: purple;
+}
+
+$topnav-background-color: #222;
 :host {
     display: block;
 }
@@ -9,7 +13,7 @@ $topnav-background-color: #8a6faa;
     right: 0;
     bottom: 0;
     overflow: auto;
-    background:linear-gradient(45DEG,#2F1C53,#A46DFF,#F6D1FD);
+    background: linear-gradient(45DEG,#2F1C53,#A46DFF,#F6D1FD);
     text-align: center;
     color: #fff;
     padding: 3em;
